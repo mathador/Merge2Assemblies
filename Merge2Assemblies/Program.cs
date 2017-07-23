@@ -61,8 +61,8 @@ namespace Merge2Assemblies
         {
             XmlConfigurator.Configure();
 
-            string oldFolder = @"E:\V1.3.8.0\References";
-            string newFolder = @"E:\bandeau-multicanal\branches\V1.3.8.0\References";
+            string oldFolder = @"C:\";
+            string newFolder = @"C:\";
             DirectoryInfo oldDi = new DirectoryInfo(oldFolder);
             DirectoryInfo newDi = new DirectoryInfo(newFolder);
             if (oldDi.Exists && newDi.Exists)
